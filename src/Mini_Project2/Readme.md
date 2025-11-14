@@ -31,7 +31,9 @@ C:/Users/YourName/Desktop/logs
 
 📁 Sample Folder Structure
 logs/├── log1.txt
+
      ├── log2.txt
+     
      ├── log3.txt
 
 📝 Output
