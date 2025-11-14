@@ -9,7 +9,9 @@ Add a new expense with:
 
 Amount
 Category
+
 Description
+
 Delete an expense using its ID
 View all recorded expenses
 Search expenses by category
