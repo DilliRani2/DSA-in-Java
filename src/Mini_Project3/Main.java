@@ -1,5 +1,46 @@
 package Mini_Project3;
 
+/*
+Expense Tracker Application
+ Project Overview
+You are tasked with building a command-line Java application that simulates a simple expense tracker. This project will help you apply key concepts from Unit 2, including:
+- Object-Oriented Programming (OOP)**: Design and implement classes with encapsulated data and behavior.
+- Collections**: Use `ArrayList` to manage expense entries.
+- Exception Handling**: Use `try-catch` blocks to handle invalid input and runtime errors.
+
+Functional Requirements
+Your application must include:
+1. Expense Class
+Fields:
+- `expenseId` (int): Unique identifier for each expense
+- `amount` (double): Amount spent
+- `category` (String): Expense category (e.g., Food, Travel)
+- `description` (String): Optional notes
+Methods:
+- Constructor
+- Getters and setters
+- `toString()` to display expense details
+2. ExpenseManager Class
+Fields:
+- `expenses` (`ArrayList<Expense>`): Stores all expense entries
+- `nextId` (int): Tracks the next available expense ID
+Methods:
+- `addExpense(double amount, String category, String description)`
+- `deleteExpense(int expenseId)`
+- `viewAllExpenses()`
+- `searchByCategory(String category)`
+- `getTotalExpense()`
+
+3. Main Class
+Implements a menu-driven interface using `Scanner`**Options**:
+- Add an expense
+- Delete an expense
+- View all expenses
+- Search by category
+- View total expense
+- Exit
+ */
+
 import java.util.*;
 
 // -------------------- Expense Class --------------------
