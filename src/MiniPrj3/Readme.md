@@ -69,28 +69,7 @@ Measuring time of quick sort
 
 So you can run the file directly without any extra setup.
 
-🛠️ How to Run
-1. Save the file
-
-Save the file as:
-
-AlgorithmicToolkit.java
-
-2. Compile
-javac AlgorithmicToolkit.java
-
-3. Run
-java AlgorithmicToolkit
-
-🧰 Tech Used
-
-Java 8+
-
-No external libraries required
-
-Runs on any IDE (IntelliJ, VS Code, Eclipse, BlueJ)
-
-📌 Project Aim
+📌 Project Aim:
 
 This mini-project helps beginners understand:
 
@@ -103,5 +82,3 @@ Generic collections
 Benchmarking techniques
 
 Writing modular code
-
-📸 Sample Output (Example)
